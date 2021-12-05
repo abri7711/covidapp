@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="388dp"
+        android:layout_height="56dp"
+        android:background="@drawable/header_background"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="117dp"
+            android:layout_height="59dp"
+            android:contentDescription="@string/logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="match_parent"
+            app:srcCompat="@drawable/logo"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="-12dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutHeader">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/mapAndWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/background_off_white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 1:1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/welcomeText"
+                    android:textColor="@color/Accent2"
+                    android:textSize="24sp"
+                    android:layout_marginTop="80dp"></TextView>
+
+                <ImageButton
+                    android:id="@+id/mapIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/map_icon"
+                    android:padding="15dp"
+                    android:contentDescription="@string/mapButton"
+                    android:layout_marginTop="100dp">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="@string/map"
+                    android:textColor="@color/Accent2">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/bottomButtons"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@id/mapAndWelcome"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <ImageButton
+                    android:id="@+id/profile_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile"
+                    android:padding="15dp"
+                    android:contentDescription="@string/profileButton"
+                    >
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/profile_icon"
+                    android:text="@string/profile"
+                    android:textSize="20sp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/Accent2">
+                </TextView>
+
+                <ImageButton
+                    android:id="@+id/settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_icon"
+                    android:src="@drawable/settings_icon"
+                    android:layout_marginStart="80dp"
+                    android:contentDescription="@string/settingsButton">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/settings"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toEndOf="@id/profile_icon"
+                    android:text="@string/settings"
+                    android:textSize="20sp"
+                    android:textColor="@color/Accent2">
+
+                </TextView>
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

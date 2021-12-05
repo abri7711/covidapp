@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CovidApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorBackground</item>
+        <item name="colorPrimaryVariant">@color/Accent1</item>
+        <item name="colorOnPrimary">@color/Accent2</item>
+    </style>
+</resources>

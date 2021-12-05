@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CovidApp</string>
+    <string name="logo"></string>
+    <string name="welcomeText">What would you like to do today?</string>
+    <string name="map">Map</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="mapButton">mapButton</string>
+    <string name="profileButton">profileButton</string>
+    <string name="settingsButton">settingsButton</string>
+</resources>
