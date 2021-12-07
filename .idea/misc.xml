@@ -6,8 +6,12 @@
         <entry key="..\:/Users/abrih/AndroidStudioProjects/CovidApp/app/src/main/res/drawable/background_off_white.xml" value="0.15493421052631579" />
         <entry key="..\:/Users/abrih/AndroidStudioProjects/CovidApp/app/src/main/res/drawable/header_background.xml" value="0.25625" />
         <entry key="..\:/Users/abrih/AndroidStudioProjects/CovidApp/app/src/main/res/drawable/ic_splash.xml" value="0.11151315789473684" />
+        <entry key="..\:/Users/abrih/AndroidStudioProjects/CovidApp/app/src/main/res/layout/activity_data.xml" value="0.128" />
         <entry key="..\:/Users/abrih/AndroidStudioProjects/CovidApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/abrih/AndroidStudioProjects/CovidApp/app/src/main/res/layout/activity_settings.xml" value="0.1" />
         <entry key="..\:/Users/abrih/AndroidStudioProjects/CovidApp/app/src/main/res/layout/splash_screen.xml" value="0.1013157894736842" />
+        <entry key="..\:/Users/abrih/AndroidStudioProjects/CovidApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/abrih/AndroidStudioProjects/CovidApp/app/src/main/res/xml/root_preferences.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -16,5 +20,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.128" />
+      </ProjectState>
+    </option>
   </component>
 </project>

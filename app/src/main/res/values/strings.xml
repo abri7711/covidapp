@@ -8,4 +8,15 @@
     <string name="mapButton">mapButton</string>
     <string name="profileButton">profileButton</string>
     <string name="settingsButton">settingsButton</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="messages_header"></string>
+    <string name="signature_title"></string>
+    <string name="reply_title"></string>
+    <string name="sync_header"></string>
+    <string name="sync_title"></string>
+    <string name="attachment_title"></string>
+    <string name="getData">I need to get my data<a href="https://takeout.google.com/settings/takeout"></a>
+    </string>
+    <string name="uploadData">I have my data</string>
+
 </resources>
